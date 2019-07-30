@@ -151,7 +151,8 @@
             android:layout_height="70dp"
             android:background="@drawable/gxsettings"
             android:layout_marginLeft="170dp"
-            android:layout_marginTop="55dp"/>
+            android:layout_marginTop="55dp"
+            android:onClick="apk"/>
 
     </LinearLayout>
 
@@ -166,7 +167,7 @@
             android:layout_height="wrap_content"
             android:text="Tentang Aplikasi"
             android:layout_marginLeft="155dp"
-            android:onClick="apk"/>
+/>
     </LinearLayout>
 
 </RelativeLayout>

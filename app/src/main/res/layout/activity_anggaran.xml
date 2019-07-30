@@ -212,7 +212,7 @@
         app:layout_constraintHorizontal_bias="0.039"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/g" />
+        app:srcCompat="@drawable/garisireng" />
 
     <TextView
         android:id="@+id/textView29"

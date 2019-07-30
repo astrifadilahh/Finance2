@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".registerActivity"
+    tools:context=".Register"
     android:background="@drawable/login">
 
     <ImageView
@@ -98,7 +98,7 @@
         app:srcCompat="@drawable/password" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/etFirst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -118,7 +118,7 @@
         app:layout_constraintVertical_bias="0.302" />
 
     <EditText
-        android:id="@+id/editText4"
+        android:id="@+id/etLast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -138,7 +138,7 @@
         app:layout_constraintVertical_bias="0.453" />
 
     <EditText
-        android:id="@+id/editText6"
+        android:id="@+id/etEm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -157,19 +157,17 @@
         app:layout_constraintVertical_bias="0.621" />
 
     <EditText
-        android:id="@+id/editText7"
+        android:id="@+id/etPass"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="172dp"
         android:ems="10"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/editText6"
         app:layout_constraintVertical_bias="0.397" />
@@ -211,7 +209,7 @@
         app:srcCompat="@drawable/forgot" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/bCreate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -227,7 +225,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.941"
-        android:onClick="regis"/>
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
