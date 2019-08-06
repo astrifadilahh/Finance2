@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "191090270565",
+    "firebase_url": "https://financebyacit.firebaseio.com",
+    "project_id": "financebyacit",
+    "storage_bucket": "financebyacit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191090270565:android:a912c4941d86db6a",
+        "android_client_info": {
+          "package_name": "com.example.finance2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191090270565-639dq3h4k0cqndv7einbidl9k5ps3bsq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAuqE7wwqH0BGXEinlfmLIe72IPRhtwDI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191090270565-639dq3h4k0cqndv7einbidl9k5ps3bsq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

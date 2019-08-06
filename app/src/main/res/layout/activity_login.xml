@@ -44,7 +44,7 @@
         app:srcCompat="@drawable/forgot" />
 
     <Button
-        android:id="@+id/bRegis"
+        android:id="@+id/bPindah"
         android:layout_width="46dp"
         android:layout_height="46dp"
         android:layout_marginStart="8dp"
@@ -55,7 +55,6 @@
         android:layout_marginBottom="8dp"
         android:background="@drawable/elip"
         android:text="+"
-        android:onClick="regis"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.814"
@@ -109,7 +108,7 @@
         android:layout_marginRight="8dp"
         android:layout_marginBottom="8dp"
         android:ems="10"
-        android:inputType="textPassword"
+        android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
@@ -127,7 +126,7 @@
         android:layout_marginEnd="8dp"
         android:ems="10"
         android:hint="Password"
-        android:inputType="numberPassword"
+        android:inputType="textPassword"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
